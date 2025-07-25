@@ -1,0 +1,48 @@
+{
+  "name": "undetectable-manager-crack",
+  "version": "1.1.2",
+  "description": "Free Undetectable.io alternative - Get unlimited browser configs and profiles without restrictions",
+  "main": "./out/main/index.js",
+  "author": "datxmilanista <datxmilanista@gmail.com>",
+  "homepage": "https://github.com/datxmilanista/undetectable-manager-crack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datxmilanista/undetectable-manager-crack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/datxmilanista/undetectable-manager-crack/issues"
+  },
+  "keywords": [
+    "undetectable",
+    "browser",
+    "fingerprint",
+    "anti-detection",
+    "automation",
+    "puppeteer",
+    "electron",
+    "crack",
+    "free"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "collect-configs": "node collect-configs.js",
+    "collect-fast": "node collect-configs-fast.js",
+    "collect-ultra": "node collect-configs-ultra.js",
+    "rebuild": "electron-rebuild"
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^3.0.1",
+    "@electron-toolkit/utils": "^3.0.0",
+    "axios": "^1.7.8",
+    "better-sqlite3": "^12.2.0",
+    "formik": "^2.4.6",
+    "knex": "^3.1.0",
+    "rebrowser-puppeteer-core": "^23.6.101"
+  },
+  "devDependencies": {
+    "electron": "^37.2.4",
+    "electron-rebuild": "^3.2.9"
+  }
+}
