@@ -52,7 +52,6 @@ npx electron-rebuild
 
 ### Usage
 
-#### Method 1: Run from Source (Recommended)
 ```bash
 # Start the application
 npm start
@@ -61,22 +60,6 @@ npm start
 npm run collect-configs
 ```
 
-#### Method 2: Collect Configs Manually
-```bash
-# Fast collection (recommended)
-node collect-configs-fast.js
-
-# Ultra fast collection (max speed)
-node collect-configs-ultra.js
-```
-
-## 📊 Performance
-
-| Script | Speed | Configs | Description |
-|--------|-------|---------|-------------|
-| `collect-configs.js` | ~50/sec | 10k+ | Standard collection |
-| `collect-configs-fast.js` | ~500/sec | 50k+ | **Recommended** |
-| `collect-configs-ultra.js` | ~1000/sec | 40k+ | Maximum speed |
 
 ## 🎯 Collected Data
 
@@ -103,18 +86,7 @@ undetectable-manager-crack/
 └── package.json              # Dependencies
 ```
 
-## ⚙️ Configuration
 
-Edit collection parameters in the scripts:
-
-```javascript
-const result = await fetchConfigsOptimized(baseUrl, {
-  maxConcurrent: 10,    // Parallel requests
-  batchSize: 1000,      // Records per request  
-  maxRecords: 50000,    // Total limit
-  delayMs: 50          // Delay between batches
-})
-```
 
 ## 🛡️ Anti-Detection Features
 
