@@ -2,7 +2,7 @@
 
 > **Free Undetectable.io Alternative** - Get unlimited browser configs and profiles without restrictions!
 
-[![GitHub stars](https://img.shields.io/github/stars/datxmilanista/undetectable-manager-crack?style=social)](https://github.com/datxmilanista/undetectable-manager-crack)
+[![GitHub stars](https://img.shields.io/github/stars/datxmilanista/undetectable-crack?style=social)](https://github.com/datxmilanista/undetectable-manager-crack)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node.js-18+-green.svg)](https://nodejs.org/)
 
